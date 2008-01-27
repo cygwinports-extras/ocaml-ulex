@@ -1,0 +1,63 @@
+ocaml-ulex
+------------------------------------------
+ulex is a lexer generator for Unicode and OCaml.
+
+Runtime requirements:
+  ocaml-3.10.0-1
+
+Build requirements:
+  cygwin-1.5.25-7
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ocaml-findlib-1.2.1-1
+
+Canonical website:
+  http://alain.frisch.fr/soft
+
+Canonical download:
+  http://www.cduce.org/download/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ocaml-ulex-1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ocaml-ulex-1.0-X.cygport all
+
+This will create:
+  /usr/src/ocaml-ulex-1.0-X-src.tar.bz2
+  /usr/src/ocaml-ulex-1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ocaml/3.10/ulex/META
+  /usr/lib/ocaml/3.10/ulex/pa_ulex.cma
+  /usr/lib/ocaml/3.10/ulex/ulexing.a
+  /usr/lib/ocaml/3.10/ulex/ulexing.cma
+  /usr/lib/ocaml/3.10/ulex/ulexing.cmi
+  /usr/lib/ocaml/3.10/ulex/ulexing.cmx
+  /usr/lib/ocaml/3.10/ulex/ulexing.cmxa
+  /usr/lib/ocaml/3.10/ulex/ulexing.mli
+  /usr/lib/ocaml/3.10/ulex/utf8.cmi
+  /usr/lib/ocaml/3.10/ulex/utf8.cmx
+  /usr/lib/ocaml/3.10/ulex/utf8.mli
+  /usr/share/doc/ocaml-ulex-1.0/Changes
+  /usr/share/doc/ocaml-ulex-1.0/LICENSE
+  /usr/share/doc/ocaml-ulex-1.0/README
+
+------------------
+
+Port Notes:
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
