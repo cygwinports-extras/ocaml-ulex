@@ -1,4 +1,4 @@
 category: OCaml
-requires: ocaml
+requires: ocaml-base
 sdesc: "OCaml Unicode lexer generator"
 ldesc: "ulex is a lexer generator for Unicode and OCaml."
