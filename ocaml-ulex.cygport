@@ -1,0 +1,17 @@
+inherit ocaml
+
+NAME="ocaml-ulex"
+VERSION=1.1
+RELEASE=4
+CATEGORY="OCaml"
+SUMMARY="OCaml Unicode lexer generator"
+DESCRIPTION="ulex is a lexer generator for Unicode and OCaml."
+HOMEPAGE="http://alain.frisch.fr/soft"
+SRC_URI="http://www.cduce.org/download/ulex-${VERSION}.tar.gz"
+SRC_DIR="ulex-${VERSION}"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake -j1 all all.opt OCAMLBUILD=ocamlbuild
+}
