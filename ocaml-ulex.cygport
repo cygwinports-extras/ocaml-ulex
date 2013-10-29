@@ -2,8 +2,8 @@ inherit ocaml
 
 NAME="ocaml-ulex"
 VERSION=1.1
-RELEASE=4
-CATEGORY="OCaml"
+RELEASE=5
+CATEGORY="Libs"
 SUMMARY="OCaml Unicode lexer generator"
 DESCRIPTION="ulex is a lexer generator for Unicode and OCaml."
 HOMEPAGE="http://alain.frisch.fr/soft"
